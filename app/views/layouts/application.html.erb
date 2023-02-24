@@ -13,6 +13,7 @@
   <body style='margin: 15px'>
     <% if user_signed_in? %>
       <%= button_to 'Sign Out', destroy_user_session_path, method: :delete %>
+      <%= link_to 'Home', root_path %>      
     <% end %>    
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>    
