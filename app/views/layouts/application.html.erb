@@ -10,7 +10,12 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <body>
+  <body style='margin: 15px'>
+    <% if user_signed_in? %>
+      <%= button_to 'Sign Out', destroy_user_session_path, method: :delete %>
+    <% end %>    
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>    
     <%= yield %>
   </body>
 </html>
