@@ -77,3 +77,4 @@ end
 
 gem 'devise'
 gem 'byebug', group: :development
+gem 'paper_trail'
