@@ -7,11 +7,3 @@ one:
   city: MyString
   country: MyString
   manager_name: MyString
-
-two:
-  reference: 1
-  address: MyString
-  zip_code: MyString
-  city: MyString
-  country: MyString
-  manager_name: MyString

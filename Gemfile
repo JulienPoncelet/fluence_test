@@ -76,5 +76,5 @@ end
 
 
 gem 'devise'
-gem 'byebug', group: :development
+gem 'byebug', group: [:development, :test]
 gem 'paper_trail'
